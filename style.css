@@ -1,14 +1,17 @@
 body {
   font-family: 'Roboto', sans-serif;
+  padding: none;
 }
 
-header,
+.hero,
 footer {
-  background-color: #130f2b;
+  background-color: #1f2937;
 }
 
-.container {}
+.container {
+  background-color: white;
+}
 
-.container-white {}
-
-.container-grey {}
+.quote {
+  background-color: #e5e7eb;
+}
