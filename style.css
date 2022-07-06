@@ -16,6 +16,10 @@ footer {
   padding: 0 15%;
 }
 
+.container:last-of-type {
+  padding: 0 10%;
+}
+
 .quote {
   background-color: #e5e7eb;
   padding: 0 15%;
