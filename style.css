@@ -99,6 +99,14 @@ h1 {
   border-radius: 5px;
 }
 
+.hero-text {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
 #hero-picture {
-  min-width: 35%;
+  min-width: 20%;
+  min-height: auto;
+  flex-shrink: 1;
+  flex-grow: 2;
 }
