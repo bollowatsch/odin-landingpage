@@ -163,3 +163,13 @@ h1 {
 .banner button {
   border: 2px solid white;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer div {
+  padding: 1% 0;
+  color: #F9FAF8;
+}
