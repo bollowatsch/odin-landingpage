@@ -62,6 +62,7 @@ footer {
 .hero-main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 5%;
   margin: 10% 0;
 }
@@ -107,11 +108,13 @@ h1 {
 .hero-text {
   flex-grow: 1;
   flex-shrink: 1;
+  max-width: 30%;
 }
 
 #hero-picture {
-  min-width: 20%;
-  min-height: auto;
+  min-width: 10%;
+  max-width: 400px;
+  height: auto;
   flex-shrink: 1;
   flex-grow: 2;
   border-radius: 0.5em;
